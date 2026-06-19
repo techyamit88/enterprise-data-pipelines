@@ -1,0 +1,12 @@
+# 📊 Project SmartQueue: Enterprise Support Triage & Insights Platform
+
+A production-grade customer data intelligence engine designed to ingest unstructured communications, enforce strict data schemas, execute deterministic routing arrays, and visualize live corporate metrics.
+
+## 🚀 Core Functionalities
+* **Structured Semantic Extraction:** Constrains local open-source LLM token probabilities to enforce strict JSON syntax outputs, converting chaotic customer emails into clean metadata arrays (Sentiment, Category, Urgency, and Summary).
+* **Conditional Business Logic Router:** An automated dispatcher that evaluates extracted metadata blocks against corporate priority frameworks, asynchronously routing payloads to distinct departmental JSON vault queues.
+* **Executive Metrics Dashboard:** Built on Streamlit and Pandas to aggregate distributed file queues dynamically, displaying live critical alerts, sentiment analytics, and volumetric queue charts.
+
+## 🛠️ Tech Stack
+* Python (Streamlit, Pandas, Requests, OS, Glob)
+* Ollama (`llama3.2:3b`)

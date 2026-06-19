@@ -1,0 +1,18 @@
+[
+    {
+        "customer_name": "Marcus Jenkins",
+        "order_id": "98765",
+        "sentiment": "Negative",
+        "primary_category": "Delivery Delay",
+        "urgency_score": 4,
+        "one_sentence_summary": "Customer is extremely frustrated with delayed order and duplicate shipping charge"
+    },
+    {
+        "customer_name": "Sarah T.",
+        "order_id": null,
+        "sentiment": "Negative",
+        "primary_category": "Delivery Delay",
+        "urgency_score": 4,
+        "one_sentence_summary": "The tracking information indicates that the package is stuck in Chicago, causing a delay in its expected delivery today."
+    }
+]

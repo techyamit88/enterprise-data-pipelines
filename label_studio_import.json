@@ -1,0 +1,124 @@
+[
+  {
+    "data": {
+      "text": "Drop the food packet on the front porch next to the red Honda Civic. Watch out for the stray cat near the stairs."
+    },
+    "predictions": [
+      {
+        "model_version": "ollama-llama3.2:3b",
+        "result": [
+          {
+            "from_name": "urgency",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "High Alert / Dangerous"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 28,
+              "end": 39,
+              "text": "front porch",
+              "labels": [
+                "LOCATION"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 52,
+              "end": 67,
+              "text": "red Honda Civic",
+              "labels": [
+                "VEHICLE"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 87,
+              "end": 96,
+              "text": "stray cat",
+              "labels": [
+                "OBSTACLE_DANGER"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Deliver to building B back door entrance. Do not enter through the front gate, the security guard says it is locked."
+    },
+    "predictions": [
+      {
+        "model_version": "ollama-llama3.2:3b",
+        "result": [
+          {
+            "from_name": "urgency",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "High Alert / Dangerous"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11,
+              "end": 21,
+              "text": "building B",
+              "labels": [
+                "LOCATION"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 22,
+              "end": 40,
+              "text": "back door entrance",
+              "labels": [
+                "LOCATION"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 67,
+              "end": 77,
+              "text": "front gate",
+              "labels": [
+                "LOCATION"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

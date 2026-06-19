@@ -1,0 +1,83 @@
+[
+    {
+        "data": {
+            "log_data": [
+                {
+                    "Time": "12:00:01",
+                    "LiDAR_Dist": "4.2m",
+                    "IMU_Acc": "1.01g"
+                },
+                {
+                    "Time": "12:00:02",
+                    "LiDAR_Dist": "2.1m",
+                    "IMU_Acc": "1.05g"
+                },
+                {
+                    "Time": "12:00:03",
+                    "LiDAR_Dist": "0.1m",
+                    "IMU_Acc": "4.89g"
+                },
+                {
+                    "Time": "12:00:04",
+                    "LiDAR_Dist": "0.0m",
+                    "IMU_Acc": "0.98g"
+                }
+            ]
+        },
+        "predictions": [
+            {
+                "model_version": "telemetry-anomaly-v1",
+                "result": [
+                    {
+                        "from_name": "status",
+                        "to_name": "telemetry",
+                        "type": "choices",
+                        "value": {
+                            "choices": [
+                                "CRITICAL: IMU Shock/Collision"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "log_data": [
+                {
+                    "Time": "14:22:55",
+                    "LiDAR_Dist": "8.5m",
+                    "IMU_Acc": "1.00g"
+                },
+                {
+                    "Time": "14:22:56",
+                    "LiDAR_Dist": "0.0m",
+                    "IMU_Acc": "1.02g"
+                },
+                {
+                    "Time": "14:22:57",
+                    "LiDAR_Dist": "8.6m",
+                    "IMU_Acc": "0.99g"
+                }
+            ]
+        },
+        "predictions": [
+            {
+                "model_version": "telemetry-anomaly-v1",
+                "result": [
+                    {
+                        "from_name": "status",
+                        "to_name": "telemetry",
+                        "type": "choices",
+                        "value": {
+                            "choices": [
+                                "CRITICAL: LiDAR Blindness Drop"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

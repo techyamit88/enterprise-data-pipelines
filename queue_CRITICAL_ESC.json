@@ -1,0 +1,10 @@
+[
+    {
+        "customer_name": "Elena R.",
+        "order_id": "11223",
+        "sentiment": "Negative",
+        "primary_category": "Product Defect",
+        "urgency_score": 5,
+        "one_sentence_summary": "My credit card was charged three times for order #11223 and I need an immediate reversal."
+    }
+]

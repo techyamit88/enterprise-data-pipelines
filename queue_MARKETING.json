@@ -1,0 +1,10 @@
+[
+    {
+        "customer_name": "David K.",
+        "order_id": null,
+        "sentiment": "Positive",
+        "primary_category": "General Inquiry",
+        "urgency_score": 1,
+        "one_sentence_summary": "Your new premium tumblers look amazing"
+    }
+]

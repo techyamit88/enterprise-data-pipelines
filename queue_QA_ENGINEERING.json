@@ -1,0 +1,18 @@
+[
+    {
+        "customer_name": "John D.",
+        "order_id": null,
+        "sentiment": "Negative",
+        "primary_category": "Product Defect",
+        "urgency_score": 4,
+        "one_sentence_summary": "The build quality of the flask feels very cheap and the handle completely snapped off on the first run."
+    },
+    {
+        "customer_name": "Robert H.",
+        "order_id": "55443",
+        "sentiment": "Negative",
+        "primary_category": "Product Defect",
+        "urgency_score": 4,
+        "one_sentence_summary": "Missing extra custom lids from order #55443"
+    }
+]

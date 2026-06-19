@@ -1,0 +1,10 @@
+[
+    {
+        "customer_name": "Linda M.",
+        "order_id": null,
+        "sentiment": "Negative",
+        "primary_category": "General Inquiry",
+        "urgency_score": 3,
+        "one_sentence_summary": "Customer is seeking information on dishwasher safety for drinkware products, which they were unable to find on the FAQ page."
+    }
+]

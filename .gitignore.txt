@@ -1,0 +1,55 @@
+# ==========================================
+# AI Data & Local Simulation Files (Project Specific)
+# ==========================================
+# Prevents your local simulated ticket logs from cluttering the repo
+queue_*.json
+label_studio_import.json
+label_studio_vision_import.json
+label_studio_sensor_import.json
+test_drone_frame.jpg
+temp_frame.jpg
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+# Never upload your API keys or database tokens to GitHub
+.env
+.env.local
+.env.*
+.streamlit/secrets.toml
+
+# ==========================================
+# Python Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.elc
+.Python
+env/
+venv/
+.venv/
+var/
+PyCharm/
+.pytest_cache/
+
+# ==========================================
+# Operating System Files (Windows / Mac)
+# ==========================================
+# Prevents system-generated thumbnail files from bloating your upload
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ==========================================
+# Text Editor & IDE Settings
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
